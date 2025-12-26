@@ -12,7 +12,7 @@
 
 
 ## 🔗 Live Demo
-[View Live] ()
+[View Live] (https://mahir9104.github.io/todo-list-app/)
 
 ---
 
