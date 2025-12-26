@@ -1,0 +1,115 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base (Mobile First) */
+body {
+  background-color: #f5f7fb;
+  font-family: system-ui, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+ 
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+/* Input */
+#input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 0.08rem solid #dcdcdc;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+#input::placeholder {
+  font-size: 1.1rem;
+}
+
+#input:focus {
+  border-color: #0d6efd;
+}
+
+/* Buttons (mobile default = full width) */
+#btn,
+#dlt-btn {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+#btn {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+#btn:hover {
+  background-color: #0b5ed7;
+}
+
+#dlt-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+#dlt-btn:hover {
+  background-color: #d71a2d;
+}
+
+/* Todo list */
+.list-container {
+  margin-top: 2rem;
+}
+
+.todo-item button:hover {
+  opacity: 0.9;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  transform: scale(1.1);
+}
+.hint {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #6c757d;
+  
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+
+  #btn,
+  #dlt-btn {
+    width: 30%;
+  }
+}
+
