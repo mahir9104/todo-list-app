@@ -6,7 +6,7 @@
 ---
 
 ## 🌍 Preview
-[📝 Todo List App Preview ](image/preview.png)
+![📝 Todo List App Preview ](image/preview.png)
 
 ---
 
